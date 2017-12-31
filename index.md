@@ -1,35 +1,47 @@
-## 大家好,我叫詠翔
+## 詠翔的github
+
+日期:2017/12/31
+
+###自我介紹
+大家好我是詠翔,我的興趣是寫網頁,網頁全端工程師,目前就讀正修科技大學,我們系沒一個老師ㄟ宏幹的,同學們學習動力也不高,希望可以在畢業前從這貧窮的學校拿點東西畢業,如果可以也想幫助同學找到人生目標,但前提是她們也要學習
+
+###開發工具
+sublime,覺得IDE難用(猖狂)
+
+###今年進度
+這是我會的東西
+1.photoshop
+3.HTML+CSS
+2.scss初階
+3.jquery
+
+###未來期許
+2018 給自己一個小目標
+1.更熟練scss,用scss手割一個網站
+2.After Effect
 
 這是我[facebook](www.google.com)
 
-我的興趣是寫網頁
+程式碼丟丟
+```Markdown
+<script>
+$(document).ready(function(){
+  $(window).scroll(
+    function() {
+    $(".slideanim").each(
+      function(){
+      var pos = $(this).offset().top;
 
-You can use the [editor on GitHub](https://github.com/satanbaby/satanbaby/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-```Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for```
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+        
+    });
+  });
+})
+</script>
 ```
-
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes

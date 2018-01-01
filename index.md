@@ -23,8 +23,15 @@ sublime,覺得IDE難用(年輕人真猖狂)
 
 ### 未來期許
 2018 給自己一個小目標
-1.更熟練scss,用scss手割一個網站
-2.After Effect
+1. 網站設計
++ scss
+2. 程式設計
++ 寫一個快捷鍵程式
++ 寫一個Ptt幣程式
+3. 多媒體
++ 用Premiere做一部宣傳影片
+
+
 
 這是我[facebook](www.google.com)
 

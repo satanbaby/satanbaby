@@ -33,17 +33,17 @@ VSCode 主要是可以Debug,且可以輕鬆做版本控管
 + 用Premiere做一部宣傳影片
 ==================
 ## 暑假目標
-1.版本控管
-+用純Git指令做遠端控管
-2.前端框架
-+Bootstrap
-+Vue.js
-++Vue.CLI打包並上架
-3.Node.js套件
-+了解npm套件安裝意義
+1. 版本控管
++ 用純Git指令做遠端控管
+2. 前端框架
++ Bootstrap
++ Vue.js
++ + Vue.CLI打包並上架
+3. Node.js套件
++ 了解npm套件安裝意義
 
 ##明年目標
-1.ASP.MVC
+1. ASP.MVC
 
 
 

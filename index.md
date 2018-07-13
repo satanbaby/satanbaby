@@ -1,6 +1,7 @@
 ## 詠翔的github
 
 [連結](https://satanbaby.github.io/satanbaby/)
+[about](satanbaby/about.md)
 
 日期:2017/12/31
 

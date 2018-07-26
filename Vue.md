@@ -20,3 +20,5 @@ Vue.component('my-component',{
 });
 ```
 ```<tr is="my-component" v-for="(item, key) in data" :person="item" :key="key"></tr>```
+
+小相簿:https://codepen.io/satanbaby/pen/OwgeXw

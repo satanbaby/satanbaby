@@ -2,5 +2,34 @@
 這裡放置Git學習進度
 ## 索引(Index)
 
-Git的索引適用SHA1雜湊演算法生成，使用40位16進位的數字呈現，SHA1的特點是只要檔案內容依樣，則演算出來的辨識碼也一定會一樣，不論這檔案在何處，相同的檔案會有相同的辨識碼
+### 使用者設定
 
+`git config --[global,local] user.[name,email] "string"`
+### 縮寫
+
+alias:別號,且設定擋在gitconfig裡,可做修改
+
+`git config --global alias.co checkout`
+
+`git config --global alias.br branch`
+
+`git config --global alias.st status`
+
+`git config --global alias.l "log --oneline --graph"`
+### 使用git
+
+```
+git init
+git status
+git add
+git rm
+git commit
+git commit -a -m "message"                    一段式commit
+git log --oneline --graph
+git log --oneline --author="name\|name2"      查找作者
+git log --oneline --grep="message"            查找commit訊息
+git log -S "content"                          查找檔案內容
+git log --oneline --since="9am"               查找特定時間commit
+                  --until="12am"              查找特定時間commit
+                  --after="2017-01"           查找特定日期commit
+```
